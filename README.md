@@ -125,34 +125,24 @@ The next step is to build the ROS 2 workspace:
 ```sh
 colcon build
 ```
-In the same terminal, launch the ROS-TCP-Endpoint launcher: "endpoint.py". This can be done in two ways:
-1. Using the ros2 launch command. This configuration is used if ROS 2 and Unity are on the same machine.
-```sh
-ros2 launch ros_tcp_endpoint endpoint.py
-```
-If Unity is running on Windows or Mac and ROS 2 is on Ubuntu, the following command is used to communicate between them:
-```sh
-ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=IP_MACHINE -p
-```
-2. Create a run_unity_publisher.sh file:
-```sh
-#!/bin/bash
-source /opt/ros/$ROS_DISTRO/setup.bash
-. install/setup.bash
-ros2 launch ros_tcp_endpoint endpoint.py
-```
-The next step is to give execute permissions to the run_unity_publisher.sh file:
-```sh
-sudo chmod +x run_unity_publisher.sh
-```
-To run the run_unity_publisher.sh file, do the following:
+
+Once Unity is installed, the following video demonstrates how to import the Niryo robot and link it with the ROS 2 robot. The repository for the ROS 2 robot can be found at the following link:
+
+[https://github.com/jarain78/NiryoRobotRosHumble.git]
 
 
+## Contributions
 
+Contributions to this project are welcome. If you have improvements, fixes, or new features you would like to add, please follow these steps:
 
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make your changes and commit descriptive messages.
+4. Submit a detailed pull request explaining your changes.
 
+## Support
 
-
+If you encounter any issues or have questions about using this repository, please open an issue on GitHub. You can also contact the project maintainers via email at [jarincon@ubu.es](mailto:support@example.com).
 
 
 
