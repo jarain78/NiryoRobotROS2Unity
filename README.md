@@ -126,7 +126,8 @@ The next step is to build the ROS 2 workspace:
 colcon build
 ```
 
-Once Unity is installed, the following video demonstrates how to import the Niryo robot and link it with the ROS 2 robot. The repository for the ROS 2 robot can be found at the following link:
+Once Unity is installed, the following [video](https://youtu.be/1aEUl9KX0Ik)  demonstrates how to import the Niryo robot and link it with the ROS 2 robot. The repository for the ROS 2 robot can be found at the following link:
+
 
 [https://github.com/jarain78/NiryoRobotRosHumble.git]
 
