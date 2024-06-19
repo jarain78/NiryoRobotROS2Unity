@@ -1731,8 +1731,8 @@ ArticulationBody:
   m_Enabled: 1
   serializedVersion: 5
   m_Mass: 1
-  m_ParentAnchorPosition: {x: 0, y: 0, z: 0}
-  m_ParentAnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_ParentAnchorPosition: {x: -0.0000000017488051, y: 0.0073003806, z: 9.313227e-10}
+  m_ParentAnchorRotation: {x: 0.000000059604645, y: 0.70710725, z: 0.70710725, w: -0.000000059604645}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
   m_AnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_MatchAnchors: 1
@@ -2124,8 +2124,8 @@ ArticulationBody:
   m_Enabled: 1
   serializedVersion: 5
   m_Mass: 1
-  m_ParentAnchorPosition: {x: 0, y: 0, z: 0}
-  m_ParentAnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_ParentAnchorPosition: {x: -4.308376e-11, y: -0.00000044703626, z: -0.000000014858159}
+  m_ParentAnchorRotation: {x: -0.00000003161014, y: -0.00000007375699, z: 0.70710737, w: 0.70710725}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
   m_AnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_MatchAnchors: 1
@@ -3361,15 +3361,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TopicName: /joint_states
-  m_myCobot280: {fileID: 939614677}
+  m_myPalletizer260: {fileID: 0}
   robotJoints:
-  - {fileID: 1873407852}
   - {fileID: 1020760469}
   - {fileID: 1773639482}
   - {fileID: 184933149}
   - {fileID: 1063940113}
   - {fileID: 1733953464}
   - {fileID: 1605349611}
+  - {fileID: 1070048152}
+  - {fileID: 431783704}
 --- !u!114 &939614679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3688,7 +3689,7 @@ ArticulationBody:
   m_Enabled: 1
   serializedVersion: 5
   m_Mass: 1
-  m_ParentAnchorPosition: {x: 0, y: 0.102999985, z: 0}
+  m_ParentAnchorPosition: {x: 0, y: 0.102999926, z: 0}
   m_ParentAnchorRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
   m_AnchorRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
@@ -4141,7 +4142,7 @@ ArticulationBody:
     target: 0
     targetVelocity: 0
     driveType: 0
-  m_LinearDamping: 0
+  m_LinearDamping: 100
   m_AngularDamping: 0
   m_JointFriction: 0
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4805,8 +4806,8 @@ ArticulationBody:
   m_Enabled: 1
   serializedVersion: 5
   m_Mass: 1
-  m_ParentAnchorPosition: {x: 0, y: 0, z: 0}
-  m_ParentAnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_ParentAnchorPosition: {x: -0.000000025145717, y: -0.014750004, z: 0.02460045}
+  m_ParentAnchorRotation: {x: 0.000034183264, y: 0.70707333, z: 0.000034064054, w: 0.7071414}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
   m_AnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_MatchAnchors: 1
@@ -5074,8 +5075,8 @@ ArticulationBody:
   m_Enabled: 1
   serializedVersion: 5
   m_Mass: 1
-  m_ParentAnchorPosition: {x: 0, y: 0, z: 0}
-  m_ParentAnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_ParentAnchorPosition: {x: -4.3192113e-11, y: -0.00000044703484, z: 4.3028695e-11}
+  m_ParentAnchorRotation: {x: 0.7071072, y: -0.7071073, z: 0.00020957521, w: 0.00020949093}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
   m_AnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_MatchAnchors: 1
@@ -7410,8 +7411,8 @@ ArticulationBody:
   m_Enabled: 1
   serializedVersion: 5
   m_Mass: 1
-  m_ParentAnchorPosition: {x: 0, y: 0, z: 0}
-  m_ParentAnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_ParentAnchorPosition: {x: -4.3192113e-11, y: -0.00000044703484, z: 4.3028695e-11}
+  m_ParentAnchorRotation: {x: 0.0000000842937, y: 0.0000000842937, z: 0.7071071, w: 0.70710725}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
   m_AnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_MatchAnchors: 1
@@ -11137,7 +11138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsBaseLink: 0
+  IsBaseLink: 1
 --- !u!171741748 &1873407852
 ArticulationBody:
   m_ObjectHideFlags: 0
@@ -11201,7 +11202,7 @@ ArticulationBody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_Immovable: 0
+  m_Immovable: 1
   m_UseGravity: 1
   m_CollisionDetectionMode: 0
 --- !u!1 &1944480277

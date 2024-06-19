@@ -128,18 +128,15 @@ colcon build
 
 Once Unity is installed, the following [video](https://youtu.be/1aEUl9KX0Ik)  demonstrates how to import the Niryo robot and link it with the ROS 2 robot. The repository for the ROS 2 robot can be found at the following link:
 
-## Posibles errores
+## Possible Errors
 
-Si cuando lanzas el robot en uniti, observas lo siguiente:
+If, when launching the robot in Unity, you observe the following:
 
 ![Descripción de la imagen](static/UnityError.png)
 
-La solucion es la siguiente:
+The solution is as follows:
 
-<video width="320" height="240" controls>
-  <source src="static/SolvError.webm" type="video/webm">
-  Tu navegador no soporta el elemento de video.
-</video>
+![Descripción de la imagen](static/SolvedError.png)
 
 
 [https://github.com/jarain78/NiryoRobotRosHumble.git]
