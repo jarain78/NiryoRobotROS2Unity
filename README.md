@@ -1,4 +1,4 @@
-# NiryoRobotROS2Unity## ROS 2 Drives Modern Robotics Hand in Hand with UNITY
+## ROS 2 Drives Modern Robotics Hand in Hand with UNITY
 
 Modern robotics is shifting its focus towards "autonomy." The study and development of algorithms capable of making decisions in the absence of strictly defined rules by a human developer. Simulation supports this transition by allowing greater flexibility and faster experimentation. Many of the new use cases for ROS 2 focus on autonomy.
 It means that the decisions a robot makes and the outcomes of those decisions are not clearly predictable. Compared to industrial robots, the operating environment of an autonomous robot is exponentially larger. To fully validate that an autonomous robot behaves as expected, a sufficiently robust simulation can be conducted.
@@ -127,6 +127,19 @@ colcon build
 ```
 
 Once Unity is installed, the following [video](https://youtu.be/1aEUl9KX0Ik)  demonstrates how to import the Niryo robot and link it with the ROS 2 robot. The repository for the ROS 2 robot can be found at the following link:
+
+## Posibles errores
+
+Si cuando lanzas el robot en uniti, observas lo siguiente:
+
+![Descripción de la imagen](static/UnityError.png)
+
+La solucion es la siguiente:
+
+<video width="320" height="240" controls>
+  <source src="static/SolvError.webm" type="video/webm">
+  Tu navegador no soporta el elemento de video.
+</video>
 
 
 [https://github.com/jarain78/NiryoRobotRosHumble.git]
